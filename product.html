@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-image {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .product-details {
+            flex: 2;
+        }
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description-tabs {
+            display: flex;
+            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #333;
+        }
+        .tab.active {
+            border-bottom: 3px solid #e27d60;
+            color: #e27d60;
+        }
+        .description, .benefits {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="product-image">
+            <img src="lipstick.jpeg" alt="Lipstick Image" width="300">
+
+        </div>
+        <div class="product-details">
+            <div class="product-title">Thrill Lipstick</div>
+            <div class="description-tabs">
+                <div class="tab active">Description</div>
+                <div class="tab">Additional Information</div>
+            </div>
+            <div class="description">
+                <p>Fit any wardrobe and any mood with our long-lasting, vibrant Thrill Lipstick. Packed with silky smooth coconut oil and vitamin E, your lips will stay moisturized through those long days while the jojoba seed oil ensures your lips stay hydrated and plump. Give your lips the fullness and richness they deserve with our lipstick's creamy texture and easy application! Whether you're dressing up for a brunch or dressing smart for a work session, match the mood with the vibrant colors our lipsticks provide.</p>
+            </div>
+            <div class="benefits">
+                <h3>Thrill Lipstick Benefits</h3>
+                <ul>
+                    <li>Coconut oil moisturizes and softens your lips</li>
+                    <li>Vitamin E intensifies lip hydration</li>
+                    <li>Jojoba seed oil ensures your lips remain soft all day by locking in moisture</li>
+                    <li>Vegan</li>
+                    <li>Paraben-free</li>
+                    <li>Recyclable packaging</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
